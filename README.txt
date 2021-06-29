@@ -1,15 +1,20 @@
-Congratulations on making it to this stage of the interview process! This part consists of small challenges
-to test your knowledge of fundamental coding principles and Node.js. Having previous knowledge of the concepts 
-covered is a plus but is not required, we place a lot of value in your ability to pick up and implement new 
-concepts quickly and accurately. 
+Coding Challenge 06.28
 
-This coding challenge consists of 2 parts:
-1) find_words.js: Implement an algorithm to find all words in a grid of letters
-2) incorrect.js: Fix bugs in a file that handles processing of documents in 2 simple collections (users, payments)
+How to Get Up and Running
 
-For (1), please implement your solution in find_words.js, and for (2), write the corrected code in correct.js.
+A. Requirements:
+   You will need Mongo DB
+   
+B. Instructions:
 
-For both parts, you can google and research general concepts (e.g., looking up Node.js documentation) on your own 
-but we kindly ask that you don't communicate with anyone about the problems.
+a. Fork the repository and create a local copy
 
-Feel free to reach out to us at any time if you have any questions. Happy coding!
+b. Open bash in the project directory and run "npm install" to install all dependencies
+
+c. Have Mongo DB up and running
+
+d. DATABASE: Seed the database from the command line with "node seeds/index.js" -- this will add in some users and payments
+
+e. Now the function modules in "correct.js" can be used withe the database.
+
+f. ALGORITHM: Run the tests from the command line with "node Algorithm/tests/findWordsTest.js"
