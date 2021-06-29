@@ -13,7 +13,7 @@ b. Open bash in the project directory and run "npm install" to install all depen
 
 c. Have Mongo DB up and running
 
-d. DATABASE: Seed the database from the command line with "node seeds/index.js" -- this will add in some users and payments
+d. DATABASE: Seed the database from the command line with "node seeds/index.js" -- adds in dummy users/payments
 
 e. Now the function modules in "correct.js" can be used withe the database.
 
