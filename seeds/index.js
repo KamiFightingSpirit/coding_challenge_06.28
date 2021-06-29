@@ -4,7 +4,7 @@ const Payment = require('../models/paymentSchema');
 const getRandomDate = require('./helpers/getRandomDate');
 const nameData = require('./nameData');
 
-mongoose.connect('mongodb://localhost:27017/clerkie_challenge', {
+mongoose.connect('mongodb://localhost:27017/coding_challenge', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

@@ -1,5 +1,7 @@
 Coding Challenge 06.28
 
+Coding challenge for an interview, involved setting up seeding a database and various queries to interact with the database.
+
 How to Get Up and Running
 
 A. Requirements:

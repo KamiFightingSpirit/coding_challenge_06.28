@@ -55,7 +55,7 @@ module.exports.answerGrid = [
 ];
 
 module.exports.testComments = [
-  'Provided by Clerkie',
+  'Provided by Interviewer',
   'Empty Array of Words',
   'Empty Nested Array',
   'Testing identical adjacent characters',

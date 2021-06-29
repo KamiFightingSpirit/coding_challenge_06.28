@@ -7,7 +7,7 @@ var mongoose = Promise.promisifyAll(require('mongoose'));
 const User = require('./models/userSchema');
 const Payment = require('./models/paymentSchema');
 
-mongoose.connect('mongodb://localhost:27017/clerkie_challenge', {
+mongoose.connect('mongodb://localhost:27017/coding_challenge', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
